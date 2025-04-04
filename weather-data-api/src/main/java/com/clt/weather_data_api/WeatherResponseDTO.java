@@ -5,7 +5,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 import lombok.Data;
 
-@Data //provide getter and setter 
+@Data  
 @JsonIgnoreProperties(ignoreUnknown=true) // ignore unused fields
 public class WeatherResponseDTO {
 	
